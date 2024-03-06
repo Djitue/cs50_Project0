@@ -2,23 +2,25 @@
 <html lang="en">
     <head>
         <title>Google</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Google_search.css">
         <link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/google-g-2015-logo-png-transparent.png" type="image/x-icon">
     </head>
     <body>
-        <form action="image_search.html">
-            <input type="submit" value="Image Search">
-        </form>
-        <form action="advanced_search.html">
-            <input type="submit" value="Advanced Search">
-        </form>
-        <div>
-            <img src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/272/Google_2015_logo-512.png" alt="Google icon">
+        <div class="first">
+            <form action="image_search.html">
+                <input type="submit" value="Image Search" class="one">
+            </form>
+            <form action="advanced_search.html">
+                <input type="submit" value="Advanced Search" class="two">
+            </form>
         </div>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky" name="btnI">
-        </form>
+        <div class="six">
+            <img src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/272/Google_2015_logo-512.png" alt="Google icon" width="300px">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" class="three">
+                <input type="submit" value="Google Search" class="four">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI" class="five">
+            </form>
+        </div>
     </body>
 </html>

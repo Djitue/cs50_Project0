@@ -2,24 +2,27 @@
 <html lang="en">
     <head>
         <title>Google</title>
-        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <link rel="stylesheet" type="text/css" href="image_search.css">
         <link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/google-g-2015-logo-png-transparent.png" type="image/x-icon">
-        <link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/google-g-2015-logo-png-transparent.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <form action="index.html">
-            <input type="submit" value="Google Search">
-        </form>
-        <form action="advanced_search.html">
-            <input type="submit" value="Advanced Search">
-        </form>
-        <div>
-            <img src="https://storage.needpix.com/rsynced_images/google-images-143148_1280.png" alt="google image" width="50%"></img>
+        <div class="first">
+            <form action="index.html">
+                <input type="submit" value="Google Search" class="one">
+            </form>
+            <form action="advanced_search.html">
+                <input type="submit" value="Advanced Search" class="two">
+            </form>
         </div>
-        <form action="https://www.google.com/search"> 
-            <input type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Image Search">
-        </form>
+        <div class="six">
+            <img src="https://storage.needpix.com/rsynced_images/google-images-143148_1280.png" width="250px" alt="google image" ></img>
+            <form action="https://www.google.com/search" > 
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" name="q" class="three">
+                <input type="hidden" name="tbm" value="isch" class="four">
+                <input type="submit" value="Image Search" class="five">
+            </form>
+        </div>
     </body>
 </html>
