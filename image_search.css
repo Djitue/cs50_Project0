@@ -1,6 +1,4 @@
-.one{
-    align-self: flex-start;
-    text-align: center;
+.one, .two{
     background-color: rgb(142, 162, 218);
     color: white;
     border-radius: 5px;
@@ -9,19 +7,7 @@
     border: 1px;
     cursor: pointer;
 }
-.one:hover{
-    background-color: rgb(93, 93, 221);
-}
-.two{
-    background-color: rgb(142, 162, 218);
-    color: white;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px;
-    cursor: pointer;
-}
-.two:hover{
+.one:hover, .two:hover{
     background-color: rgb(93, 93, 221);
 }
 .three{
@@ -35,6 +21,13 @@
 .three:hover{
     box-shadow: -1px -1px 1px rgb(224, 230, 224) ,  1px 1px 1px rgb(224, 230, 224);
 }
+
+.three:focus{
+    border-color: lightgray;
+    outline: none;
+    box-shadow: -1px -1px 1px rgb(198, 198, 219), 1px 1px 1px rgb(198, 198, 219);
+}
+
 .four{
    border: 1px;
    padding: 10px;

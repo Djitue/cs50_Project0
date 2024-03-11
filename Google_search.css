@@ -9,7 +9,7 @@
     border: 1px;
     cursor: pointer;
 }
-.one:hover{
+.one:hover, .two:hover{
     background-color: rgb(93, 93, 221);
 }
 .two{
@@ -21,9 +21,6 @@
     border: 1px;
     cursor: pointer;
 }
-.two:hover{
-    background-color: rgb(93, 93, 221);
-}
 .three{
     height: 35px;
     width: 500px;
@@ -34,24 +31,20 @@
 .three:hover{
     box-shadow: -1px -1px 1px rgb(224, 230, 224) ,  1px 1px 1px rgb(224, 230, 224);
 }
-.four{
+
+.three:focus{
+    border-color: lightgray;
+    outline: none;
+    box-shadow: -1px -1px 1px rgb(198, 198, 219), 1px 1px 1px rgb(198, 198, 219);
+}
+
+.four, .five{
    border: 1px;
    padding: 10px;
    cursor: pointer;
    margin: 30px;
 }
-.four:hover{
-    border: 1px solid rgb(165, 165, 165);
-    box-shadow: -1px -1px 1px rgb(224, 230, 224) ,  1px 1px 1px rgb(224, 230, 224);
-    border-radius: 3px;
-}
-.five{
-    border: 1px;
-    padding: 10px;
-    cursor: pointer;
-    margin: 30px;
-}
-.five:hover{
+.four:hover, .five:hover{
     border: 1px solid rgb(165, 165, 165);
     box-shadow: -1px -1px 1px rgb(224, 230, 224) ,  1px 1px 1px rgb(224, 230, 224);
     border-radius: 3px;
@@ -60,8 +53,13 @@
     width: 500px;
     margin: auto;
 }
-img{
+.img1{
     margin-bottom: -70px;
+}
+.img2{
+    position: absolute;
+    padding: 4px;
+    margin-left: 3px;
 }
 .first {
     position: absolute;

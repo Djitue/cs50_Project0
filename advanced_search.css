@@ -1,6 +1,18 @@
-.one{
-    align-self: flex-start;
-    text-align: center;
+.three {
+    position: relative;
+}
+
+.four{
+    margin-left: 30px;
+}
+
+.five {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -10px;
+}
+
+.one, .two{
     background-color: rgb(142, 162, 218);
     color: white;
     border-radius: 5px;
@@ -9,22 +21,93 @@
     border: 1px;
     cursor: pointer;
 }
-.one:hover{
+
+.one:hover, .two:hover, .third:hover{
     background-color: rgb(93, 93, 221);
 }
-.two{
-    background-color: rgb(142, 162, 218);
-    color: white;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px;
-    cursor: pointer;
-}
-.two:hover{
-    background-color: rgb(93, 93, 221);
-}
+
 .first {
     position: absolute;
     right: 0;
-} 
+    }
+
+.as{
+    color: rgb(238, 13, 13);
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+/* .a{
+    width: 500px;
+    height: 20px;
+    margin-bottom: 15px;       
+} */
+
+/* .a:focus{
+    border-color: rgb(172, 172, 212);
+    outline: none;
+} */
+
+.a{
+    width: 600px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: 71px;
+    margin-right: 20px;
+    border: 1px solid #b8b4b4;
+}
+
+.b{
+    width: 600px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: 14px; 
+    margin-right: 20px;
+    border: 1px solid #b8b4b4;
+}
+
+.c{
+    width: 600px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: 49px;
+    margin-right: 13px;
+    border: 1px solid #b8b4b4;
+}
+
+.d{
+    width: 600px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border: 1px solid #b8b4b4;
+}
+
+.a:focus, .b:focus, .c:focus, .d:focus{
+    border-color: rgb(153, 153, 229);
+    outline: none;
+    box-shadow: -1px -1px 1px rgb(153, 153, 229);
+}
+
+.second{
+     margin: 30px; 
+}
+
+.third{
+    background-color: rgb(142, 162, 218);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px;
+    cursor: pointer;
+}
+
+body{
+    font-family: arial, sans-serif;
+    color: rgb(51, 48, 48);
+}
+label{
+    font-size: small;
+}
