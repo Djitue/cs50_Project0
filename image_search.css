@@ -1,14 +1,16 @@
-.one, .two{
-    background-color: rgb(142, 162, 218);
+.one, .two {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
     color: white;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    border-radius: 4px;
     cursor: pointer;
 }
-.one:hover, .two:hover{
-    background-color: rgb(93, 93, 221);
+.one:hover, .two:hover {
+    background-color: #2980b9;
 }
 .three{
     height: 43px;
@@ -16,6 +18,7 @@
     border:1px solid lightgray ;
     border-radius: 25px;
     margin-bottom: 30px;
+    padding-left: 45px;
     
 }
 .three:hover{
@@ -37,8 +40,9 @@
     border: 1px;
     padding: 10px;
     cursor: pointer;
-    margin-right: 100px;
+    margin-left: 220px;
     width: 110px;
+
 }
 .five:hover{
     border: 1px solid rgb(165, 165, 165);
@@ -49,12 +53,16 @@
     width: 500px;
     margin: auto;
 }
-img{
+.img1{
     margin-top: 100px;
+    margin-left: 120px;
+    margin-bottom: 20px;
 }
-* {
-    box-sizing: border-box;
-  }
+.img2{
+    position: absolute;
+    padding: 4px;
+    margin-left: 3px;
+}
 .first {
     position: absolute;
     right: 0;

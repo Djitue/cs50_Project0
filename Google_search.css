@@ -1,32 +1,24 @@
-.one{
-    align-self: flex-start;
+.one, .two {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
     text-align: center;
-    background-color: rgb(142, 162, 218);
-    color: white;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    border-radius: 4px;
     cursor: pointer;
 }
-.one:hover, .two:hover{
-    background-color: rgb(93, 93, 221);
+.one:hover, .two:hover {
+    background-color: #2980b9;
 }
-.two{
-    background-color: rgb(142, 162, 218);
-    color: white;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px;
-    cursor: pointer;
-}
+
 .three{
-    height: 35px;
+    height: 45px;
     width: 500px;
     border:1px solid lightgray ;
-    border-radius: 20px;
-
+    border-radius: 30px;
+    padding-left: 40px;
 }
 .three:hover{
     box-shadow: -1px -1px 1px rgb(224, 230, 224) ,  1px 1px 1px rgb(224, 230, 224);
@@ -38,12 +30,20 @@
     box-shadow: -1px -1px 1px rgb(198, 198, 219), 1px 1px 1px rgb(198, 198, 219);
 }
 
-.four, .five{
+.four{
    border: 1px;
    padding: 10px;
    cursor: pointer;
    margin: 30px;
+   margin-left: 160px;
 }
+.five{
+    border: 1px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 30px;
+    margin-left: 1px;
+ }
 .four:hover, .five:hover{
     border: 1px solid rgb(165, 165, 165);
     box-shadow: -1px -1px 1px rgb(224, 230, 224) ,  1px 1px 1px rgb(224, 230, 224);
@@ -54,12 +54,13 @@
     margin: auto;
 }
 .img1{
-    margin-bottom: -70px;
+    margin-bottom: -80px;
+    margin-left: 120px;
 }
 .img2{
     position: absolute;
-    padding: 4px;
-    margin-left: 3px;
+    padding: 10px;
+    margin-left: -4px;
 }
 .first {
     position: absolute;

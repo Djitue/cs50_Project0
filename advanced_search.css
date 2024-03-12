@@ -1,3 +1,27 @@
+.first {
+    position: absolute;
+    right: 0;
+}
+.one, .two {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.one:hover, .two:hover, .third:hover{
+    background-color: #2980b9;
+}
+.a_s{
+    color: rgb(238, 13, 13);
+    font-size: x-large;
+    margin-left: 30px;
+}
 .three {
     position: relative;
 }
@@ -11,42 +35,9 @@
     margin-left: 60%;
     margin-top: -10px;
 }
-
-.one, .two{
-    background-color: rgb(142, 162, 218);
-    color: white;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: 1px;
-    cursor: pointer;
+.second{
+     margin: 30px; 
 }
-
-.one:hover, .two:hover, .third:hover{
-    background-color: rgb(93, 93, 221);
-}
-
-.first {
-    position: absolute;
-    right: 0;
-    }
-
-.as{
-    color: rgb(238, 13, 13);
-    font-size: x-large;
-    margin-left: 30px;
-}
-
-/* .a{
-    width: 500px;
-    height: 20px;
-    margin-bottom: 15px;       
-} */
-
-/* .a:focus{
-    border-color: rgb(172, 172, 212);
-    outline: none;
-} */
 
 .a{
     width: 600px;
@@ -83,23 +74,18 @@
     margin-right: 20px;
     border: 1px solid #b8b4b4;
 }
-
 .a:focus, .b:focus, .c:focus, .d:focus{
     border-color: rgb(153, 153, 229);
     outline: none;
     box-shadow: -1px -1px 1px rgb(153, 153, 229);
 }
 
-.second{
-     margin: 30px; 
-}
-
 .third{
-    background-color: rgb(142, 162, 218);
+    background-color: #3498db;
     color: white;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: 5px;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px;
     cursor: pointer;
 }
